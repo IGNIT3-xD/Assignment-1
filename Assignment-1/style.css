@@ -1,8 +1,14 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .raleway-normal {
     font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
@@ -18,11 +24,9 @@
     background-color: #4E47FF;
     color: white;
     padding: 12px 30px;
-    font-size: 16px;
-    font-weight: bold;
     font-size: 14px;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
@@ -30,14 +34,22 @@
     color: #4E47FF;
 }
 
+.section-size {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.paragraph {
+    color: #25243265;
+    font-size: 16px;
+}
+
 /* Nav */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
     height: 100px;
-    margin: 0 auto;
 }
 
 .logo {
@@ -55,6 +67,7 @@ header {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 30px;
+    color: #252432;
 }
 
 .banner {
@@ -63,4 +76,63 @@ header {
     text-align: center;
     align-items: center;
     height: 80%;
+}
+
+/* Action */
+.action {
+    height: 250px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-img {
+    height: 250px;
+    border-radius: 25px;
+}
+
+.action-items h1 {
+    font-size: 36px;
+    color: #252432;
+    margin-bottom: 20px;
+}
+
+.action-items p {
+    margin-bottom: 20px;
+}
+
+.action-items {
+    width: 400px;
+}
+
+/* Productive user */
+.productive-user {
+    margin-top: 100px;
+    background-color: #4d47ff21;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+}
+.sec-title{
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: #252432;
+}
+
+.pu-items h1{
+    color: #4E47FF;
+    font-size: 60px;
+}
+
+.pu-items p{
+    font-size: 16px;
+    color: #00000073;
+}
+
+.pu-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
