@@ -34,6 +34,12 @@ body {
     cursor: pointer;
 }
 
+.btn-primary:hover {
+    background-color: rgba(226, 174, 4, 0.884);
+    border: none;
+    transition: all .2s;
+}
+
 .primary-color {
     color: #4E47FF;
 }
