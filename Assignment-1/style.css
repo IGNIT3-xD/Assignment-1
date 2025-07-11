@@ -273,6 +273,7 @@ textarea {
     border-radius: 8px;
     padding: 10px 0 10px 20px;
     border: none;
+    box-shadow: 1px 1px 5px #160f0f61;
 }
 
 textarea::placeholder {
